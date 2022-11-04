@@ -27,6 +27,7 @@ header ul{
 }
 #div1{
     text-align: center;
+    color: wheat;
 }
 #div1 #h1{
     margin-bottom: -10px;
@@ -200,18 +201,46 @@ section{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        padding: 20px 5px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.93),rgba(0, 0, 0, 0.807)),url("pexels-anna-nekrashevich-6802052.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    main #diva{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid red;
+        padding:  30px 10px;
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.682);
     }
     #main2 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        padding: 20px 60px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.93),rgba(0, 0, 0, 0.807)),url("pexels-anna-nekrashevich-6802052.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     #main3 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        padding: 20px 5px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.93),rgba(0, 0, 0, 0.807)),url("pexels-anna-nekrashevich-6802052.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     
     
