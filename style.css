@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 3px 40px;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    gap: 30px;
+    font-weight: bold;
+    
+}
+#div1{
+    text-align: center;
+}
+#div1 #h1{
+    margin-bottom: -10px;
+}
+header ul li{
+    padding: 5px;
+}
+header ul li a:hover{
+    color: red;
+    transition: all 0,5s;
+}
+header ul li a{
+    color: aliceblue;
+}
+header #a{
+    color: red;
+    border: 2px solid wheat;
+    border-radius: 3px;
+    padding: 7px;
+}
+header #a:hover{
+    border: 2px solid red;
+    color: wheat;
+
+}
+
+
+main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.93),rgba(0, 0, 0, 0.807)),url("img.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    color: white;
+    gap: 50px;
+}
+main #diva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    padding:  30px 50px;
+    border-radius: 15px;
+    background-color: black;
+}
+main #diva form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 90px;
+    color: white;
+    background-color: black;
+    margin-bottom: 60px;
+}
+ input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+#bnt{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+#bnt:hover{
+    background-color: rgb(102, 11, 11);
+    cursor: pointer;
+}
+#divb{
+    text-align: center;
+    margin: 10px 0;
+}
+#divb #h2{
+    color: red;
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+#divb p{
+    margin: 10px 0;
+}
+
+@media (max-width:700px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 5px;
+    }
+    header ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1px;
+
+    }
+    #div1{
+        border-bottom:1px solid white ;
+    }
+    main{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+}
